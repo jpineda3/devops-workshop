@@ -15,6 +15,4 @@ RUN apt-get update && apt-get install -y \
     usbutils \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
-
 CMD ["/bin/bash"]
