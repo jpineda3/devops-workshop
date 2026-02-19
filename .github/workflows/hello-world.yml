@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello from GitHub Actions!"
+        run: echo "Hello from the other side"
 
       - name: Print Environment
         run: |
