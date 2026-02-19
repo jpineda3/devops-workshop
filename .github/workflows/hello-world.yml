@@ -12,9 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo "Hello from GitHub Actions!"
-        run: echo "Hello from the other side"
-        run: echo "Hello from the other side another"
+        run: |
+        echo "Hello from GitHub Actions!"
+        echo "Hello from the other side"
+        echo "Hello from the other side another"
 
       - name: Print Environment
         run: |
