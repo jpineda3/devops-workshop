@@ -13,9 +13,9 @@ jobs:
     steps:
       - name: Say Hello
         run: |
-        echo "Hello from GitHub Actions!"
-        echo "Hello from the other side"
-        echo "Hello from the other side another"
+          echo "Hello from GitHub Actions!"
+          echo "Hello from the other side"
+          echo "Hello from the other side another"
 
       - name: Print Environment
         run: |
